@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_demo_jerry.feature_04321</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>feature_04321</name>
+        <script><![CDATA[var Feature_04321 = Class.create();
+Feature_04321.prototype = {
+    initialize: function() {
+   },
+
+    sayHello: function() {
+ 	   return "Hello!";
+    },
+ 
+   type: 'Feature_04321'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-05 06:48:14</sys_created_on>
+        <sys_id>909ef33687a730502cde96873cbb350d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>feature_04321</sys_name>
+        <sys_package display_value="Demo Jerry" source="x_snc_demo_jerry">cb041f7a872730502cde96873cbb35c4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Demo Jerry">cb041f7a872730502cde96873cbb35c4</sys_scope>
+        <sys_update_name>sys_script_include_909ef33687a730502cde96873cbb350d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-05 06:48:14</sys_updated_on>
+    </sys_script_include>
+</record_update>
